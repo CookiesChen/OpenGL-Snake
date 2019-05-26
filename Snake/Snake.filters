@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\GLSL">
+      <UniqueIdentifier>{6140db71-8ca1-485e-8442-190ae5ce4ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GLAD">
+      <UniqueIdentifier>{9c9fc614-d6bb-4ed5-884e-3d8667f39c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\shader">
+      <UniqueIdentifier>{403185a4-d128-41cc-96e2-11d2100c4fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\imgui">
+      <UniqueIdentifier>{3dd52314-4e7a-4e60-96ca-0fff57636356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\imgui">
+      <UniqueIdentifier>{8332aa90-1a53-494e-b86e-ae0397182df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bresenham">
+      <UniqueIdentifier>{2c9f49de-91e3-4e06-942f-5950c6aba477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Transformation">
+      <UniqueIdentifier>{698af092-0d9a-483f-8233-177306f57168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{356c8e36-2210-43a4-9527-ecc2749dc17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\View">
+      <UniqueIdentifier>{713d72fa-99cf-4cc2-82e2-c67e8c73b2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Light">
+      <UniqueIdentifier>{f77d1b33-4ccc-43c7-9ab7-bcfba415c2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shadow">
+      <UniqueIdentifier>{69ec0e1d-a1f0-496c-95e7-2a96d678940d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\GLAD</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>源文件\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Bresenham.cpp">
+      <Filter>源文件\Bresenham</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformation.cpp">
+      <Filter>源文件\Transformation</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>源文件\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>源文件\Shadow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertex.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="fragment.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="gfragment.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="gvertex.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="pfragment.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="pvertex.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="lfragment.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="lvertex.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="depthfragment.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="depthvertex.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="shadowfragment.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+    <None Include="shadowvertex.glsl">
+      <Filter>源文件\GLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>头文件\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Bresenham.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Snake.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

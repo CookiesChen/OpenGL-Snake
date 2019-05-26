@@ -1,0 +1,31 @@
+﻿  Game.cpp
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Camera.h(39): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(43): warning C4244: “=”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(66): warning C4244: “初始化”: 从“T”转换到“GLint”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(91): warning C4244: “=”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(96): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(108): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(140): warning C4244: “初始化”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(141): warning C4244: “初始化”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Snake\Game.cpp(158): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Snake.vcxproj -> C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\x64\Debug\Snake.exe

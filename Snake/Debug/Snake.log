@@ -1,0 +1,44 @@
+﻿imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetWindowSize，该符号在函数 "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetFramebufferSize，该符号在函数 "void __cdecl ImGui_ImplGlfw_NewFrame(void)" (?ImGui_ImplGlfw_NewFrame@@YAXXZ) 中被引用
+main.obj : error LNK2001: 无法解析的外部符号 _glfwGetFramebufferSize
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetWindowAttrib，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateMousePosAndButtons(void)" (?ImGui_ImplGlfw_UpdateMousePosAndButtons@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetInputMode，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetInputMode，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetMouseButton，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateMousePosAndButtons(void)" (?ImGui_ImplGlfw_UpdateMousePosAndButtons@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetCursorPos，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateMousePosAndButtons(void)" (?ImGui_ImplGlfw_UpdateMousePosAndButtons@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPos，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateMousePosAndButtons(void)" (?ImGui_ImplGlfw_UpdateMousePosAndButtons@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwCreateStandardCursor，该符号在函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwDestroyCursor，该符号在函数 "void __cdecl ImGui_ImplGlfw_Shutdown(void)" (?ImGui_ImplGlfw_Shutdown@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursor，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateMouseCursor(void)" (?ImGui_ImplGlfw_UpdateMouseCursor@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetKeyCallback，该符号在函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetCharCallback，该符号在函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetMouseButtonCallback，该符号在函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetScrollCallback，该符号在函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中被引用
+main.obj : error LNK2001: 无法解析的外部符号 _glfwSetScrollCallback
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetJoystickAxes，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateGamepads(void)" (?ImGui_ImplGlfw_UpdateGamepads@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetJoystickButtons，该符号在函数 "void __cdecl ImGui_ImplGlfw_UpdateGamepads(void)" (?ImGui_ImplGlfw_UpdateGamepads@@YAXXZ) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwSetClipboardString，该符号在函数 "void __cdecl ImGui_ImplGlfw_SetClipboardText(void *,char const *)" (?ImGui_ImplGlfw_SetClipboardText@@YAXPAXPBD@Z) 中被引用
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetClipboardString，该符号在函数 "char const * __cdecl ImGui_ImplGlfw_GetClipboardText(void *)" (?ImGui_ImplGlfw_GetClipboardText@@YAPBDPAX@Z) 中被引用
+Transformation.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+View.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+imgui_impl_glfw.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+Light.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+main.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+Shadow.obj : error LNK2001: 无法解析的外部符号 _glfwGetTime
+imgui_impl_glfw.obj : error LNK2019: 无法解析的外部符号 _glfwGetWin32Window，该符号在函数 "bool __cdecl ImGui_ImplGlfw_Init(struct GLFWwindow *,bool,enum GlfwClientApi)" (?ImGui_ImplGlfw_Init@@YA_NPAUGLFWwindow@@_NW4GlfwClientApi@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwInit，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwDestroyWindow，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，该符号在函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPosCallback，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，该符号在函数 _main 中被引用
+D:\study\opengl\Libs\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\cookieschen\Desktop\课业\大三\下\PAOGD\PAOGD_HW4\src\16340029chensiqi\Snake\Debug\Snake.exe : fatal error LNK1120: 35 个无法解析的外部命令
